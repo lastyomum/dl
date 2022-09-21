@@ -1,0 +1,11 @@
+<body>
+<div id="turd" font-size="100pt;">Hello, </div>
+<input id="turdy" onchange="addname();">
+<script>
+   function addname() {
+   var name = document.getElementById("turdy");
+   var count = "Hello," +name.value ;
+   document.getElementById("turd").innerHTML = count;
+}
+    </script>
+</body>
